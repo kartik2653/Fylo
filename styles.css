@@ -1,0 +1,523 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    color: hsl(243, 87%, 12%);
+    overflow-x: hidden;
+}
+body{
+    /* background-color: black; */
+}
+:root{
+    --bold : 400;
+    --bolder : 700;
+}
+header{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+.titleContainer{
+    width: 135px;
+}
+.titleContainer > img{
+    width: 100%;
+    aspect-ratio: auto;
+}
+.title{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 30px;
+}
+.navigationButton{
+    border: none;
+    font-family: 'Raleway';
+    margin-left: 40px;
+    background-color: #fff;
+}
+.actionContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0px 0px 0px;
+    padding: 0px 50px;
+}
+.action{
+    width: 40%;
+}
+.actionHeading{
+ font-family: Raleway;
+ font-weight: bolder;
+ font-size: 29px;
+ line-height: 45px;
+}
+.actionBody{
+ font-family: 'Open Sans';
+ font-size: 14px;
+ margin:15px 0px;
+}
+.actionImageContainer{
+   width: 40%;
+}
+.actionImageContainer > img{
+    width: 100%;
+    aspect-ratio: auto;
+}
+.actionButtonContainer{
+    display: flex;
+    flex-direction: row;
+}
+.actionButtonContainer > *{
+    padding: 10px 0px;
+    font-family: 'Open Sans';
+    border-radius: 3px;
+    outline-offset: 0;
+    border: none;
+}
+.textInput{
+    display: block;
+    width: 60%;
+    padding-left: 10px;
+    border: 1px solid #20075f;
+}
+.submitButton{
+    display: block;
+    width: 30%;
+    margin-left: 25px;
+    color: #fff;
+    font-weight: bold;
+    background-color:  hsl(224, 93%, 58%);
+    padding: 0px 25px;
+    font-size: 11px;
+}
+.productAction{
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+.linkContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    width: fit-content;
+}
+.link{
+    color: hsl(170, 45%, 43%);
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+.linkImage{
+    align-self: center;
+}
+.reviewContainer{
+    margin-top: 40px;
+    width: 70%;
+    padding: 10px 40px;
+    box-shadow: 4px 4px 20px #b1afaf;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.review{
+    font-family: 'Raleway';
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.userCard{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profileContainer{
+    width: 20%;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.profileContainer > img {
+    width: 100%;
+    aspect-ratio: auto;
+    border-radius: 100%;
+}
+.user{
+    font-family: 'Raleway';
+}
+.userName{
+    font-size: 11px;
+    font-weight: bold;
+}
+.userPost{
+    font-size: 8px;
+}
+.accessContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: #575989;
+    justify-content: space-between;
+    padding: 70px 40px;
+}
+.helpContainer{
+width: 40%;
+}
+.helpButtonContainer{
+width: 30%;
+display: flex;
+flex-direction: column;
+}
+.helpHeader{
+    font-family: 'Raleway';
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+}
+.helpContent{
+    margin-top: 17px;
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+}
+.emailInput{
+    padding: 8px 10px;
+    font-family: 'Raleway';
+    font-size: 11px;
+    border: none;
+    box-shadow: 1px 1px 30px #20075f;
+    border-radius: 2px;
+    outline: none;
+}
+.emailSubmit{
+    width:fit-content;
+    padding: 10px 10px;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Raleway';
+    border: none;
+    margin-top: 9px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 10px #525151;
+}
+footer{
+    padding: 70px 50px;
+    
+    background-color:  hsl(243, 87%, 12%);
+}
+.linksContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.phoneCard{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.phoneCard > p{
+    font-family: 'Open Sans';
+    float: left;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.navContainer > p{
+  font-size: 12px;
+ color: #fff;
+ font-family: 'Open Sans';
+ margin-top: 15px;
+}
+.socialMediaContainer{
+display: flex;
+flex-direction: row;
+flex: none;
+}
+.socialMedia{
+width: 30px;
+height: 30px;
+margin: 0px 5px;
+}
+.socialMedia > img{
+width: 100%;
+aspect-ratio: auto;
+}
+.icon{
+    fill:#20075f;
+}
+
+
+@media screen and (max-width:400px) {
+    header{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .titleContainer{
+        width: 25%;
+    }
+    .titleContainer > img{
+        width: 100%;
+        aspect-ratio: auto;
+    }
+    .title{
+        font-family: 'Raleway';
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .navigationButton{
+        border: none;
+        font-family: 'Raleway';
+        margin-left: 10px;
+        background-color: #fff;
+        font-size: 15px;
+    }  
+
+    .actionContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 130px 0px 0px 0px;
+        padding: 0px 20px;
+    }
+    .action{
+        width: 100%;
+    }
+    .actionHeading{
+     font-family: Raleway;
+     font-weight: bold;
+     font-size: 29px;
+     line-height: 45px;
+     text-align: center;
+    }
+    .actionBody{
+     font-family: 'Open Sans';
+     font-size: 14px;
+     margin:15px 0px;
+     text-align: center;
+    }
+    .actionImageContainer{
+       width: 100%;
+    }
+    .actionImageContainer > img{
+        width: 100%;
+        aspect-ratio: auto;
+    }
+    .actionButtonContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .actionButtonContainer > *{
+        padding: 10px 0px;
+        font-family: 'Open Sans';
+        border-radius: 3px;
+        outline-offset: 0;
+        border: none;
+    }
+    .textInput{
+        display: block;
+        width: 100%;
+        padding-left: 10px;
+        outline: 1px solid hsl(243, 87%, 12%);
+    }
+    .submitButton{
+        background-color: #525151;
+        display: block;
+        width: 100%;
+        margin: 7px 0px;
+        color: #fff;
+        font-weight: bold;
+        background-color:  hsl(224, 93%, 58%);
+        padding: 10px 25px;
+        font-size: 11px;
+    }
+
+    .actionSubheading{
+        margin-top: 65px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .actionSubbody{
+        text-align: left;
+    }
+
+    .linkContainer{
+        margin: auto;
+    }
+
+    .reviewContainer{
+        
+        width: 90%;
+        padding: 10px 20px;
+        box-shadow: 4px 4px 20px #b1afaf;
+        border-radius: 6px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    .review{
+        font-family: 'Raleway';
+        font-size: 12px;
+        line-height: 25px;
+        font-weight: 600;
+    }
+    .userCard{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .profileContainer{
+        width: 15%;
+        aspect-ratio: 1;
+        border-radius: 100%;
+        margin-right: 10px;
+    }
+    .profileContainer > img {
+        width: 100%;
+        aspect-ratio: auto;
+        border-radius: 100%;
+    }
+    .user{
+        font-family: 'Raleway';
+    }
+    .userName{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .userPost{
+        font-size: 8px;
+    }
+
+    .accessContainer{
+        display: flex;
+        flex-direction: column;
+        background-color: #575989;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 20px;
+        
+    }
+    .helpContainer{
+    width: 80%;
+    }
+    .helpButtonContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    }
+    .helpHeader{
+        font-family: 'Raleway';
+        color: #fff;
+        font-weight: bold;
+        font-size: 21px;
+        text-align: center;
+    }
+    .helpContent{
+        margin-top: 17px;
+        font-family: 'Raleway';
+        color: #fff;
+        font-size: 15px;
+        line-height: 23px;
+        text-align: center;
+    }
+    .emailInput{
+        padding: 12px 10px;
+        font-family: 'Raleway';
+        font-size: 11px;
+        border: none;
+        box-shadow: 1px 1px 30px #20075f;
+        border-radius: 2px;
+        outline: none;
+    }
+    .emailSubmit{
+        width:100%;
+        padding: 12px 10px;
+        background-color: hsl(224, 93%, 58%);
+        color: #fff;
+        font-size: 11px;
+        font-weight: bold;
+        font-family: 'Raleway';
+        border: none;
+        margin-top: 9px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 10px #525151;
+    }
+    footer{
+        padding: 70px 40px;
+        
+        background-color:  hsl(243, 87%, 12%);
+    }
+    .linksContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    
+    .phoneCard{
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+    }
+    .phoneCard > p{
+        font-family: 'Open Sans';
+        float: left;
+        color: #fff;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    
+    .navContainer > p{
+     font-size: 15px;
+     color: #fff;
+     font-family: 'Open Sans';
+     margin-top: 15px;
+    }
+    .socialMediaContainer{
+    display: flex;
+    flex-direction: row;
+    flex: none;
+    
+    margin: auto;
+    margin-top: 50px;
+    }
+    .socialMedia{
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+    }
+    .socialMedia > img{
+    width: 100%;
+    aspect-ratio: auto;
+    }
+    .icon{
+        fill:#20075f;
+    }
+    .contactContainer{
+        margin: 25px 0px;
+    }
+    .navContainer{
+        margin-top: 25px;
+    }
+}
+
+
+
+
+
+

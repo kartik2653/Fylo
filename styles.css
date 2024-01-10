@@ -158,8 +158,9 @@ header{
     display: flex;
     flex-direction: row;
     background-color: #575989;
+    /* background-color: #20075f; */
     justify-content: space-between;
-    padding: 70px 40px;
+    padding: 80px 40px;
 }
 .helpContainer{
 width: 40%;
@@ -329,7 +330,8 @@ aspect-ratio: auto;
         display: block;
         width: 100%;
         padding-left: 10px;
-        outline: 1px solid hsl(243, 87%, 12%);
+        /* outline: 1px solid hsl(243, 87%, 12%); */
+        border: 1px solid hsl(243, 87%, 12%);
     }
     .submitButton{
         background-color: #525151;

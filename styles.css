@@ -5,6 +5,9 @@
     color: hsl(243, 87%, 12%);
     overflow-x: hidden;
 }
+.btn{
+    cursor: pointer;
+}
 body{
     /* background-color: black; */
 }
@@ -37,6 +40,7 @@ header{
     font-family: 'Raleway';
     margin-left: 40px;
     background-color: #fff;
+    cursor: pointer;
 }
 .actionContainer{
     display: flex;
@@ -83,6 +87,7 @@ header{
     width: 60%;
     padding-left: 10px;
     border: 1px solid #20075f;
+    outline: none;
 }
 .submitButton{
     display: block;

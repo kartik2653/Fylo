@@ -27,9 +27,11 @@
         <p class="actionBody">Fylo stores your most important files in one secure location.
             Access them wherever you need, share and collaborate with friends, family,
             and co-workers.</p>
-        <div class="actionButtonContainer">
-            <input type = "email" placeholder="Enter your email" class="textInput"/>
-            <button class="submitButton btn">Get Started</button>
+        <div >
+            <form class="actionButtonContainer">
+              <input type = "email" placeholder="Enter your email" class="textInput"/>
+              <button class="submitButton btn">Get Started</button>
+           </form>
         </div>
     </div>
     <div class="actionImageContainer" >
@@ -40,6 +42,7 @@
 
 <section class="actionContainer productAction">
     <div class="action">
+        
         <p class="actionHeading actionSubheading">Stay productive, wherever you are</p>
         <p class="actionBody actionSubbody">Never let
             location be an issue when accessing your files. Fylo has you covered for all
@@ -87,8 +90,10 @@
             happy to help you.</p>
     </div>
     <div class="helpButtonContainer">
-        <input type = "email" placeholder="email@example.com" class="emailInput"/>
-        <button class="emailSubmit btn">Get Started For Free</button>
+        <form class="helpButtonContainer">
+          <input type = "email" placeholder="email@example.com" class="emailInput"/>
+          <button class="emailSubmit btn">Get Started For Free</button>
+       </form>
     </div>
 
 </section>
@@ -118,13 +123,13 @@
                 <div class="phoneContainer">
                 <img src="./assets/images/icon-phone.svg"/>
                 </div>
-                <p>Phone: +1-543-123-4567</p>
+                <a href="tel:+1-543-123-4567">Phone: +1-543-123-4567</a>
            </div>
            <div class="phoneCard btn">
             <div class="phoneContainer">
             <img src="./assets/images/icon-email.svg"/>
             </div>
-            <p>example@fylo.com</p>
+            <a href="mailto:email@example.com?subject=Mail from our Website">example@gmail.com</a>
        </div>
 
         </div>
@@ -160,6 +165,14 @@
         </div>
     </div>
 </footer>
+
+<script>
+    function doMail(){
+       console.log("done");
+       var email ="xyz@abc.com";
+       location.href = "mailto:"+email;
+    }
+</script>
     
 </body>
 </html>

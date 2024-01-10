@@ -175,6 +175,11 @@ width: 30%;
 display: flex;
 flex-direction: column;
 }
+.helpButtonContainer > form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .helpHeader{
     font-family: 'Raleway';
     color: #fff;
@@ -233,6 +238,13 @@ footer{
     color: #fff;
     margin-left: 20px;
     font-size: 15px;
+}
+.phoneCard > div{
+     font-family: 'Open Sans';
+    float: left;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 15px;   
 }
 
 .navContainer > p{
